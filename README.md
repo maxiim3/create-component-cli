@@ -1,6 +1,8 @@
 # create-component-cli
 Automatisez la création de composants React avec un script Bash
 
+[**La video sur Youtube**](https://youtu.be/tMfx4Cb4IVk)
+
 
 1. Créez un nouveau fichier appelé create-component.sh et ouvrez-le dans votre éditeur de texte préféré.
 ```bash
