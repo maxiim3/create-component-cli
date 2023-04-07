@@ -3,13 +3,13 @@ Automatisez la création de composants React avec un script Bash
 
 
 1. Créez un nouveau fichier appelé create-component.sh et ouvrez-le dans votre éditeur de texte préféré.
-    ```bash
+```bash
  touch create-component.sh
  ```
 
 2. Ouvrez le fichier avec `open create-component.sh` et 
  ajoutez à ce fichier:
-     ```bash
+```bash
  #!/bin/bash
 
 if [ $# -ne 2 ]; then
@@ -55,17 +55,17 @@ echo "Component '${component_name_pascal}' created at '${component_dir}'"
 
 
 3. Enregistrez le fichier et rendez-le exécutable:
-    ```bash
+```bash
 chmod +x create-component.sh
 ```
 
 4. Déplacez le script dans un répertoire de votre PATH, par exemple, /usr/local/bin, afin de pouvoir l'exécuter de n'importe où :
-    ```bash
+```bash
 sudo mv create-component.sh /usr/local/bin/create-component
 ```
 
 5. Maintenant, vous pouvez utiliser la commande create-component [componentName] [path] pour créer vos composants. Par exemple :
-    ```bash
+```bash
 create-component BasedButton /path/to/components
 ```
 
